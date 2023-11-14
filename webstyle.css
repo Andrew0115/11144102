@@ -18,6 +18,76 @@ header {
     padding: 15px;
     margin: 0px;
 }
+.experience{
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+.work {
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    top: 2%;
+    right: 70%;
+}
+
+.basketball {
+    width: 270px;
+    height: 265px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.guitar {
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    top: 2%;
+    left: 70%;
+}
+
+.tea{
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    top: 45%;
+    right: 70%;
+}
+
+.basketball {
+    width: 270px;
+    height: 265px;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+}
+
+.exp{
+    text-align: center;
+    position: relative;
+}
+
+.pho{
+    position: relative;
+    display: flex;
+    float: left;
+    margin: 5px;
+}
+
+.pho2{
+    position: relative;
+    display: flex;
+    float: right;
+    margin: 5px;
+}
+
+.col1{
+    text-align: center;
+}
 
 nav {
     background-color:	#FFDAC8;
@@ -57,6 +127,7 @@ footer {
     border-radius: 10x;
     background-image: url(image/pngtree-abstract-light-brown-background-with-curve-color-blocks-image_901339.jpg);
     background-size: cover;
+    text-align: center;
 }
 
 @media screen and(max-width:8000px) {
@@ -82,58 +153,13 @@ footer {
 .card,
 .card01{
     text-align:center ;
+}
 
 img{
     max-width: 100px;
     max-height: 100px;
 }
-.circle{
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    border-radius: 50px;
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(232, 215, 92,0.3);
-  }
-  
-  .circle::after{
-    content: '';
-    display: block;
-    background-color: #FAEBD7;
-    width: calc(100% - 20px);
-    height: calc(100% - 20px);
-    border-radius: 50%;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-  }
-  p90,.p180,.p270,.p360{
-    width: 50%;
-    height: 50%;
-    background-color: purple;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .p180{
-    position: absolute;
-    top: 25px;
-  }
-  
-  .p270{
-    position: absolute;
-    top: 25px;
-    right: 25px;
-  }
-  
-  .p360{
-    position: absolute;
-    top: 0;
-    right: 25px;
-  }
+
   .bar-chart {
     width: 300px;
     margin: 20px;
@@ -150,4 +176,14 @@ img{
     margin-bottom: 5px;
     transition: width 0.5s;
 
+}
+.section h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+}
+.fix-setting {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
 }
